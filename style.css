@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree';
+}
+
+body {
+    background-color: #f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 22px;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    max-width: 375px;
+    padding: 15px;
+    border: 1px solid black;
+    box-shadow: 8px 8px 0px black;
+}
+
+#card-content {
+    margin-left: 8px;
+}
+
+#published {
+    font-size: 14px;
+    margin: 10px 0 6px 0;
+    font-weight: 500;
+}
+
+h2 {
+    margin: 12px 0 15px 0;
+    font-weight: 800;
+}
+
+#learning {
+    background-color: #f4d04e;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 2px;
+    max-width: 80px;
+    border-radius: 5px;
+    margin-top: 14px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+
+#card-img {
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+}
+
+#text-body {
+    color: rgb(142, 142, 142);
+    font-weight: 500;
+    font-size: 15px;
+    margin: 10px 0 20px 0;
+}
+
+#greg-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+    font-size: 14px;
+    width: auto;
+    margin-bottom: 6px;
+}
+
+#greg-group img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+#greg {
+    max-width: none;
+    white-space: nowrap;
+}
