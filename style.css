@@ -38,6 +38,10 @@ h2 {
     font-weight: 800;
 }
 
+h2:hover{
+    color: #f4d04e;
+}
+
 #learning {
     background-color: #f4d04e;
     text-align: center;
